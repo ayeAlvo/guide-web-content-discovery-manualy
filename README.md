@@ -29,18 +29,21 @@ When we make requests to the web server, the server returns various HTTP headers
 
 More info: https://wiki.elhacker.net/bugs-y-exploits/nivel-web/google-dorking
 
-_Filter:_ site  
-_Example:_ site:tryhackme.com  
-_Description:_ returns results only from the specified website address  
-_Filter:_ inurl  
-_Example:_ inurl:admin
-_Description:_ returns results that have the specified word in the URL  
-_Filter:_ filetype  
-_Example:_ filetype:pdf  
-_Description:_ returns results which are a particular file extension  
-_Filter:_ intitle  
-_Example:_ intitle:admin  
-_Description:_ returns results that contain the specified word in the title
+> _Filter:_ site  
+> _Example:_ site:tryhackme.com  
+> _Description:_ returns results only from the specified website address
+
+> _Filter:_ inurl  
+> _Example:_ inurl:admin
+> _Description:_ returns results that have the specified word in the URL
+
+> _Filter:_ filetype  
+> _Example:_ filetype:pdf  
+> _Description:_ returns results which are a particular file extension
+
+> _Filter:_ intitle  
+> _Example:_ intitle:admin  
+> _Description:_ returns results that contain the specified word in the title
 
 ## OSINT - Wayback Machine
 
